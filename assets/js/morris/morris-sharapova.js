@@ -150,7 +150,7 @@ var Script = function () {
       Morris.Bar({
         element: 'sentiment-graph',
         data: [
-          {"month": "2016-06", "anger": 0.0927, "disgust": 0.0004., "fear": 0.0287, "joy": 0.0169, "sadness": 0.0172, "surprise": 0.0149},
+          {"month": "2016-06", "anger": 0.0927, "disgust": 0.0004, "fear": 0.0287, "joy": 0.0169, "sadness": 0.0172, "surprise": 0.0149},
           {"month": "2016-07", "anger": 0.0300, "disgust": 0.0005, "fear": 0.0334, "joy": 0.0225, "sadness": 0.0153, "surprise": 0.0193},
             {"month": "2016-08", "anger": 0.0272, "disgust": 0.0007, "fear": 0.0347, "joy": 0.0282, "sadness": 0.0192, "surprise": 0.0142},
             {"month": "2016-09", "anger": 0.0211, "disgust": 0.0007, "fear": 0.0384, "joy": 0.0332, "sadness": 0.0178, "surprise": 0.0293}
