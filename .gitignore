@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 
 *.xml
+=======
+*.xml
+.idea/TweetSafe.iml
+>>>>>>> master
 TweetSafe.iml
