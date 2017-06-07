@@ -1,3 +1,7 @@
 *.xml
+<<<<<<< HEAD
+.idea/TweetSafe.iml
+=======
 .idea/TweetSafe.iml
 TweetSafe.iml
+>>>>>>> refs/remotes/origin/master
