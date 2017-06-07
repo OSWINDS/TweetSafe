@@ -183,6 +183,10 @@ hr {
 	margin-top: 25px;
 }
 
+.table {
+    margin-top: 60px !important;
+}
+
 .mb {
 	margin-bottom: 25px;
 }

@@ -227,7 +227,17 @@
 
               <!-- SECOND ROW: TAG CLOUD - WORDS -->
               <div class="row mt case-charts">
-                  <h4><i class="fa fa-angle-right"></i> Most Frequent Words <i class="fa fa-info-circle infopop-icon"></i> </h4>
+                  <!-- TAG CLOUD - WORDS -->
+                  <div class="col-md-9">
+                      <h4><i class="fa fa-angle-right"></i> Most Frequent Words <i class="fa fa-info-circle infopop-icon"></i> </h4>
+                      <div class="infopop">
+                          <p>Contains the most frequent distinct words as extracted from the final data. The table shows the top-10 words along with their frequencies.</p>
+                      </div>
+                      <div class="tag-cloud">
+                          <div data-wordart-src="//cdn.wordart.com/json/svg6e9b4ep51"></div>
+                      </div>
+                  </div>
+
                   <div class="col-md-3">
                     <table class="table table-hover mt">
                       <thead>
@@ -291,27 +301,18 @@
                       </tbody>
                     </table>
                   </div>
-                  <div class="col-md-9">
-                      <div class="infopop">
-                          <p>Contains the most frequent distinct words as extracted from the final data during the researching period.</p>
-                      </div>
-                      <div class="panel-body">
-                        <div class="tag-cloud">
-                            <div data-wordart-src="//cdn.wordart.com/json/svg6e9b4ep51"></div>
-                        </div>
-                      </div>
-                  </div>
               </div>
 
-              <!-- THIRD ROW: TAG CLOUDS - HASHTAGS & MENTIONS / BUBBLE CHART / LOCATION MAP -->
+              <!-- THIRD ROW: TAG CLOUDS - HASHTAGS -->
               <div class="row mt case-charts">
                 <!-- TAG CLOUD - HASHTAGS -->
                 <div class="col-md-9">
                   <h4><i class="fa fa-angle-right"></i> Most Frequent Hashtags <i class="fa fa-info-circle infopop-icon"></i> </h4>
                   <div class="infopop">
-                      <p>Contains the most frequent distinct hashtags as extracted from the final data. The table shows the top-10 of the hashtags along with their frequencies.</p>
+                      <p>Contains the most frequent distinct hashtags as extracted from the final data. The table shows the top-10 hashtags along with their frequencies.</p>
                   </div>
                   <div class="tag-cloud">
+                      <!--<div data-wordart-src="//cdn.wordart.com/json/pucccs5dqdum"></div>-->
                       <div data-wordart-src="//cdn.wordart.com/json/pucccs5dqdum"></div>
                   </div>
                 </div>
@@ -321,7 +322,7 @@
                     <thead>
                       <tr>
                           <th>#</th>
-                          <th>Word</th>
+                          <th>Hashtag</th>
                           <th>Frequency</th>
                       </tr>
                     </thead>
@@ -380,206 +381,161 @@
                   </table>
                 </div>
               </div>
+
+              <!-- FOURTH ROW: TAG CLOUDS -  MENTIONS -->
               <div class="row mt case-charts">
-                <h4><i class="fa fa-angle-right"></i> Most Frequent Users &amp; Mentions <i class="fa fa-info-circle infopop-icon"></i> </h4>
-                <div class="infopop">
-                    <p>The bubble chart contains the most frequent users that tweeted about the event and the tagcloud contains the most frequent mentions included in the tweets.</p>
-                </div>
-                <!-- TABLE OF MOST FREQUENT USERS -->
-                <div class="col-md-3 col-md-offset-1">
-                  <table class="table table-hover mt">
-                    <thead>
-                      <tr>
-                          <th>#</th>
-                          <th>Mention</th>
-                          <th>Frequency</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                          <td>1</td>
-                          <td>@lancearmstrong</td>
-                          <td>1908</td>
-                      </tr>
-                      <tr>
-                          <td>2</td>
-                          <td>@LanceArmstrong</td>
-                          <td>357</td>
-                      </tr>
-                      <tr>
-                          <td>3</td>
-                          <td>@youtube</td>
-                          <td>171</td>
-                      </tr>
-                      <tr>
-                          <td>4</td>
-                          <td>@guardian</td>
-                          <td>170</td>
-                      </tr>
-                      <tr>
-                          <td>5</td>
-                          <td>@YouTube</td>
-                          <td>170</td>
-                      </tr>
-                      <tr>
-                          <td>6</td>
-                          <td>@Oprah</td>
-                          <td>126</td>
-                      </tr>
-                      <tr>
-                          <td>7</td>
-                          <td>@examinercom</td>
-                          <td>118</td>
-                      </tr>
-                      <tr>
-                          <td>8</td>
-                          <td>@cnnbrk</td>
-                          <td>98</td>
-                      </tr>
-                      <tr>
-                          <td>9</td>
-                          <td>@AussieGrit</td>
-                          <td>97</td>
-                      </tr>
-                      <tr>
-                          <td>10</td>
-                          <td>@cyclingnewsfeed</td>
-                          <td>91</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- TAG CLOUD - MENTIONS -->
-                <div class="col-lg-8 tag-cloud">
-                    <div data-wordart-src="//cdn.wordart.com/json/yjd35cz73awf"></div>
-                </div>
+                  <div class="col-md-9">
+                      <h4><i class="fa fa-angle-right"></i> Most Frequent Mentions <i class="fa fa-info-circle infopop-icon"></i> </h4>
+                      <div class="infopop">
+                          <p>Contains the most frequent Twitter mentions as extracted from the final data. The table shows the top-10 mentions along with their frequencies.</p>
+                      </div>
+                      <!-- TAG CLOUD - MENTIONS -->
+                      <div class="tag-cloud">
+                          <div data-wordart-src="//cdn.wordart.com/json/yjd35cz73awf"></div>
+                      </div>
+                  </div>
+                    <!-- TABLE OF MOST FREQUENT USERS -->
+                    <div class="col-md-3">
+                      <table class="table table-hover mt">
+                        <thead>
+                          <tr>
+                              <th>#</th>
+                              <th>Mention</th>
+                              <th>Frequency</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                              <td>1</td>
+                              <td>@lancearmstrong</td>
+                              <td>1908</td>
+                          </tr>
+                          <tr>
+                              <td>2</td>
+                              <td>@LanceArmstrong</td>
+                              <td>357</td>
+                          </tr>
+                          <tr>
+                              <td>3</td>
+                              <td>@youtube</td>
+                              <td>171</td>
+                          </tr>
+                          <tr>
+                              <td>4</td>
+                              <td>@guardian</td>
+                              <td>170</td>
+                          </tr>
+                          <tr>
+                              <td>5</td>
+                              <td>@YouTube</td>
+                              <td>170</td>
+                          </tr>
+                          <tr>
+                              <td>6</td>
+                              <td>@Oprah</td>
+                              <td>126</td>
+                          </tr>
+                          <tr>
+                              <td>7</td>
+                              <td>@examinercom</td>
+                              <td>118</td>
+                          </tr>
+                          <tr>
+                              <td>8</td>
+                              <td>@cnnbrk</td>
+                              <td>98</td>
+                          </tr>
+                          <tr>
+                              <td>9</td>
+                              <td>@AussieGrit</td>
+                              <td>97</td>
+                          </tr>
+                          <tr>
+                              <td>10</td>
+                              <td>@cyclingnewsfeed</td>
+                              <td>91</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
               </div>
+
+              <!-- FIFTH ROW: TAG CLOUDS -  USERS -->
               <div class="row mt case-charts">
-                  <!-- TAG CLOUD - USERS -->
-                  <div class="col-md-offset-1 col-md-8 bubble-chart">
-                    <img src="images/bubble-donaghy.png"/>
+                  <div class="col-md-9">
+                      <h4><i class="fa fa-angle-right"></i> Most Frequent Users <i class="fa fa-info-circle infopop-icon"></i> </h4>
+                      <div class="infopop">
+                          <p>Contains the most frequent Twitter users as extracted from the final data. The table shows the top-10 users along with their frequencies.</p>
+                      </div>
+                      <!-- TAG CLOUD - USERS -->
+                      <div class="tag-cloud">
+                          <div data-wordart-src="//cdn.wordart.com/json/7rp9k8qhhpvw"></div>
+                      </div>
                   </div>
-                  <!-- TABLE OF MOST FREQUENT MENTIONS -->
+                  <!-- TABLE OF MOST FREQUENT USERS -->
                   <div class="col-md-3">
-                    <table class="table table-hover mt">
-                      <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Users</th>
-                            <th>Frequency</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>@NBA</td>
-                            <td>419</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>@Deadspin</td>
-                            <td>75</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>@sportsguy33</td>
-                            <td>63</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>@Tim_Donaghy</td>
-                            <td>60</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>@espn</td>
-                            <td>41</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>@NBAOfficial</td>
-                            <td>38</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>@YouTube</td>
-                            <td>32</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>@nfl</td>
-                            <td>30</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>@BillSimmons</td>
-                            <td>27</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>@jimrome</td>
-                            <td>27</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      <table class="table table-hover mt">
+                          <thead>
+                          <tr>
+                              <th>#</th>
+                              <th>Mention</th>
+                              <th>Frequency</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                              <td>1</td>
+                              <td>@mikehanes</td>
+                              <td>266</td>
+                          </tr>
+                          <tr>
+                              <td>2</td>
+                              <td>@RedneckRag</td>
+                              <td>172</td>
+                          </tr>
+                          <tr>
+                              <td>3</td>
+                              <td>@GossipDetector</td>
+                              <td>160</td>
+                          </tr>
+                          <tr>
+                              <td>4</td>
+                              <td>@studentofsucces</td>
+                              <td>153</td>
+                          </tr>
+                          <tr>
+                              <td>5</td>
+                              <td>@LanArmstrong36</td>
+                              <td>127</td>
+                          </tr>
+                          <tr>
+                              <td>6</td>
+                              <td>@Gossip_Gorilla</td>
+                              <td>118</td>
+                          </tr>
+                          <tr>
+                              <td>7</td>
+                              <td>@ArmstrongShare</td>
+                              <td>115</td>
+                          </tr>
+                          <tr>
+                              <td>8</td>
+                              <td>@NCarolinaRecord</td>
+                              <td>106</td>
+                          </tr>
+                          <tr>
+                              <td>9</td>
+                              <td>@Furnkranz</td>
+                              <td>96</td>
+                          </tr>
+                          <tr>
+                              <td>10</td>
+                              <td>@successsecret</td>
+                              <td>79</td>
+                          </tr>
+                          </tbody>
+                      </table>
                   </div>
-              </div> 
-              <!-- FREQUENT LOCATIONS MAP -->
-              <div class="row mt case-charts">
-                <div class="map" id="map"></div>
-                <script>
-                  anychart.onDocumentReady(
-                    function() {
-                      map = anychart.map();
-
-                      // insert data
-                      var dataSet = anychart.data.set([
-                        {'id': 'US', 'value': 207},
-                        {'id': 'CA', 'value': 7},
-                        {'id': 'GB', 'value': 5},
-                        {'id': 'FR', 'value': 4},
-                        {'id': 'PH', 'value': 3},
-                        {'id': 'AU', 'value': 1},
-                        {'id': 'AG', 'value': 1},
-                        {'id': 'AT', 'value': 1},
-                        {'id': 'JM', 'value': 1},
-                        {'id': 'EE', 'value': 1},
-                        {'id': 'IE', 'value': 1},
-                        {'id': 'ES', 'value': 1},
-                        {'id': 'ZA', 'value': 1},
-                        {'id': 'IT', 'value': 1},
-                        {'id': 'CO', 'value': 1}
-                      ]);
-
-                      // create choropleth series
-                      series = map.choropleth(dataSet);
-
-                      // set geoIdField to 'id', this field contains in geo data meta properties
-                      series.geoIdField('id');
-
-                      // set map color settings
-                      series.colorScale(anychart.scales.linearColor('#effbfd', '#68dff0'));
-                      series.hoverFill('#ed5565');
-
-                      // disable countries' labels
-                      series.labels(false);
-
-                      // set map title
-                      map.title().enabled(true).text('Most Frequent Locations talking about Match Fixing\n');
-
-                      // set geo data, you can find this map in our geo maps collection
-                      // http://cdn.anychart.com/#maps-collection
-                      map.geoData(anychart.maps['world_source']);
-
-                      //set map container id (div)
-                      map.container('map');
-
-                      //initiate map drawing
-                      map.draw();
-
-                      // anychart.installStyles('body{font-family:Verdana,\'Helvetica Neue\',Arial,Helvetica,Geneva,sans-serif;background-color:red;}');
-                    });
-                </script>
               </div>
           </section><!--/wrapper -->
       </section><!-- /MAIN CONTENT -->
