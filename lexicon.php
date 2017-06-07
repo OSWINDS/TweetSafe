@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="OSWINDS">
-    <meta name="keyword" content="Fixing, Sports, Analytics, Data, Twitter, YouTube, Corruption, Match">
+    <meta name="keyword" content="Doping, Anti-doping, Sports, Analytics, Data, Twitter, YouTube, Match">
 
-    <title>TWEETFIX</title>
+    <title>TWEETSAFE</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -37,7 +37,7 @@
                   <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
               </div>
             <!--logo start-->
-            <a href="index.html" class="logo"><b>FIX THE TWITTER</b></a>
+            <a href="index.html" class="logo"><b>ANTI-DOPING TWITTER</b></a>
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
             </div>
@@ -117,8 +117,8 @@
           		<div class="col-lg-12">
                     <div class="col-md-12 mt">
                       <div class="content-panel">
-                            <table class="table table-hover">
-                            <h4>Extended List of 78 Most Frequent Words regarding Match Fixing</h4>
+                            <table class="table table-hover" id="table-no-margin">
+                            <h4>Extended List of 78 Most Frequent Words regarding Doping on Twitter</h4>
                                 <?php
                                     include "table_generator.php";
                                     generate_table('Results/lexicon.csv',',');

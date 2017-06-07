@@ -14,7 +14,7 @@ function generate_table($filename, $delimiter){
 
     $filehandler = fopen($filename, "r");
     if ($filehandler) {
-        echo"<table class='table table-hover mt'>
+        echo"<table class='table table-hover mt' id='table-no-margin'>
                     <thead>
                         <tr>
                           <th>#</th>
