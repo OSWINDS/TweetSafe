@@ -87,7 +87,7 @@
                   </li>
 
                   <li class="sub-menu">
-                    <a class="active" href="lexicon.html">
+                    <a class="active" href="lexicon.php">
                       <i class="fa fa-book"></i>
                       <span>Lexicon</span>
                     </a>
@@ -137,7 +137,7 @@
       <footer class="site-footer">
           <div class="text-center">
               © 2016 <a href="http://oswinds.csd.auth.gr" target="_blank">OSWINDS</a>, Source Code can be found <a href="https://github.com/OSWINDS/TweetSafe" target="_blank">here</a>
-              <a href="lexicon.html#" class="go-top">
+              <a href="lexicon.php#" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
           </div>
