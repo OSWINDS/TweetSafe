@@ -36,8 +36,7 @@ var Script = function () {
         ykeys: ['tweets'],
         labels: ['Tweets'],
         xLabelFormat: function (x) {
-              var m_names = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun");
-              var date = x.getDate();
+              var m_names = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
               var month = x.getMonth();
               var year = x.getFullYear();
               return m_names[month] + " " + year; },
