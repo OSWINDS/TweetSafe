@@ -118,7 +118,7 @@
                     <div class="col-md-12 mt">
                       <div class="content-panel">
                             <table class="table table-hover" id="table-no-margin">
-                            <h4>Extended List of 78 Most Frequent Words regarding Doping on Twitter</h4>
+                            <h4>Extended List of 100 Most Frequent Words regarding Doping on Twitter</h4>
                                 <?php
                                     include "table_generator.php";
                                     generate_table('Results/lexicon.csv',',');
