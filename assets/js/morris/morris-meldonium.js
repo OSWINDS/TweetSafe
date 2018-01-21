@@ -55,24 +55,20 @@ var Script = function () {
           {"month": "2016-07-16", "tweets": 25},
           {"month": "2016-07-17", "tweets": 42},
           {"month": "2016-07-18", "tweets": 56},
-            {"month": "2016-07-19", "tweets": 46},
-            {"month": "2016-07-20", "tweets": 26},
-            {"month": "2016-07-21", "tweets": 32},
-            {"month": "2016-07-22", "tweets": 43},
-            {"month": "2016-07-23", "tweets": 30},
-            {"month": "2016-07-24", "tweets": 51},
-            {"month": "2016-07-25", "tweets": 30},
-            {"month": "2016-07-26", "tweets": 30},
-            {"month": "2016-07-27", "tweets": 45},
-            {"month": "2016-07-28", "tweets": 36},
-            {"month": "2016-07-29", "tweets": 25},
-            {"month": "2016-07-30", "tweets": 48},
-            {"month": "2016-07-31", "tweets": 19},
-            {"month": "2016-08-01", "tweets": 5},
-
-
-
-
+          {"month": "2016-07-19", "tweets": 46},
+          {"month": "2016-07-20", "tweets": 26},
+          {"month": "2016-07-21", "tweets": 32},
+          {"month": "2016-07-22", "tweets": 43},
+          {"month": "2016-07-23", "tweets": 30},
+          {"month": "2016-07-24", "tweets": 51},
+          {"month": "2016-07-25", "tweets": 30},
+          {"month": "2016-07-26", "tweets": 30},
+          {"month": "2016-07-27", "tweets": 45},
+          {"month": "2016-07-28", "tweets": 36},
+          {"month": "2016-07-29", "tweets": 25},
+          {"month": "2016-07-30", "tweets": 48},
+          {"month": "2016-07-31", "tweets": 19},
+          {"month": "2016-08-01", "tweets": 5}
         ],
         xkey: 'month',
         ykeys: ['tweets'],  //,'sentiment','sascore'
@@ -92,9 +88,7 @@ var Script = function () {
         data: [
           {"month": "2016-06", "anger": 0.0505, "disgust": 0.0017, "fear": 0.0254, "joy": 0.0136, "sadness": 0.0133, "surprise": 0.0173},
           {"month": "2016-07", "anger": 0.0429, "disgust": 0.0028, "fear": 0.0436, "joy": 0.0130, "sadness": 0.0082, "surprise": 0.0189},
-            {"month": "2016-08", "anger": 0.1672, "disgust": 0.0000, "fear": 0.0000, "joy": 0.0116, "sadness": 0.0116, "surprise": 0.1958},
-
-
+          {"month": "2016-08", "anger": 0.1672, "disgust": 0.0000, "fear": 0.0000, "joy": 0.0116, "sadness": 0.0116, "surprise": 0.1958},
         ],
         xkey: 'month',
         ykeys: ['anger','disgust','fear','joy','sadness','surprise'],
